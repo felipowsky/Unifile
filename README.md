@@ -5,6 +5,7 @@
 ## Description
 This python script will merge the content from all the files in a directory and its subdirectores into one file.
 Edit `extensions` variable to configure which type of files you want to merge.
+
 Example:
 ```python
 extensions = ['.swift', '.h', '.m', '.cpp', '.c', '.py', '.java']
