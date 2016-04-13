@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/felipowsky/MergeAllFiles.svg?branch=master)](https://travis-ci.org/felipowsky/MergeAllFiles)
 
 ## Description
-This python script will merge the content from all the files in a directory and its subdirectores into one file.
+This python script will merge content of all files in a directory and its subdirectores into a single file.
 Edit `extensions` variable to configure which type of files you want to merge.
 
 Example:
