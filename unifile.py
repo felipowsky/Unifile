@@ -4,7 +4,7 @@ import os
 import sys
 
 extensions = ['.h', '.m', '.swift']
-final_filename = 'merged_file.txt'
+final_filename = 'unifile.txt'
 filepaths = []
 directory = os.getcwd()
 
