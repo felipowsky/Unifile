@@ -1,10 +1,8 @@
-# Merge All Files
-
-[![Build Status](https://travis-ci.org/felipowsky/MergeAllFiles.svg?branch=master)](https://travis-ci.org/felipowsky/MergeAllFiles)
+# Unifile
 
 ## Description
-This python script will merge content of all files in a directory and its subdirectores into a single file.
-Edit `extensions` variable to configure which type of files you want to merge.
+This python script will unify the content of all files in a directory and its subdirectores into a single file.
+Edit `extensions` variable in `unifile.py` to configure which files you want to merge.
 
 Example:
 ```python
@@ -13,12 +11,12 @@ extensions = ['.swift', '.h', '.m', '.cpp', '.c', '.py', '.java']
 
 ## Usage
 
-To merge files from current directory:
+To unify the content of files of the current directory:
 ```bash
-./merge_all_files.py
+./unifile.py
 ```
 
-To merge files from a specific directory:
+To unify the content of files of a specific directory:
 ```bash
-./merge_all_files.py <directory>
+./unifile.py <directory>
 ```
