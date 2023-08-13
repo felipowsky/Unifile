@@ -1,7 +1,7 @@
 # Unifile
 
 ## Description
-This python script will unify the content of all files in a directory and its subdirectores into a single file.
+This python script unifies the content of multiple files into a single file.
 Edit `extensions` variable in `unifile.py` to configure which files you want to merge.
 
 Example:
